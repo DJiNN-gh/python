@@ -22,24 +22,16 @@ def convKelvinParaCelsius(tempEntrada_f):
 def convKelvinParaFarenheit(tempEntrada_f):
     return ((tempEntrada_f * 1.8) - 459.67)
 
-temp_f = float(input("Insira o valor da temperatura: " ))
-
-print("\n")
+temp_f = float(input("Insira o valor da temperatura: \n"))
 
 print("Sua temperatura em Celsius: ", round(temp_f, 2))
 print("Em Farenheit: ", round(convCelsiusParaFarenheit(temp_f), 2))
-print("Em Kelvin: ", round(convCelsiusParaKelvin(temp_f), 2))
-
-print("\n")
+print("Em Kelvin: \n", round(convCelsiusParaKelvin(temp_f), 2))
 
 print("Sua temperatura em Farenheit: ", round(temp_f, 2))
 print("Em Celsius: ", round(convFarenheitParaCelsius(temp_f), 2))
-print("Em Kelvin: ", round(convFarenheitParaKelvin(temp_f), 2))
-
-print("\n")
+print("Em Kelvin: \n", round(convFarenheitParaKelvin(temp_f), 2))
 
 print("Sua temperatura em Kelvin: ", round(temp_f, 2))
 print("Em Celsius: ", round(convKelvinParaCelsius(temp_f), 2))
-print("Em Farenheit: ", round(convKelvinParaFarenheit(temp_f), 2))
-
-print("\n")
+print("Em Farenheit: \n", round(convKelvinParaFarenheit(temp_f), 2))
