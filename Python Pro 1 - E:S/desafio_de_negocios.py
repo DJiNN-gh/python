@@ -12,11 +12,11 @@ Dica Pythonica: "Explícito é melhor que implícito". Use nomes descritivos com
 valor_compra = float(input("Informe o valor da compra: \n"))
 tipo_pagamento = int(input("Informe o código da forma de pagamento (1) - À Vista \t (2) - Parcelado: \n"))
 
-if tipo_pagamento == 1 and valor_compra < 500:
-    subtotal = (valor_compra - (valor_compra * 0.15))
+if tipo_pagamento == 1 and valor_compra > 500:
+    subtotal = (valor_compra * 0.85)
     print(f"O valor da compra é de: R${subtotal:.2f}")
-elif tipo_pagamento == 1 and valor_compra >= 500:
-    subtotal = (valor_compra - (valor_compra * 0.05))
+elif tipo_pagamento == 1 and valor_compra <= 500:
+    subtotal = (valor_compra * 0.95)
     print(f"O valor da compra é de: R${subtotal:.2f}")
 else:
     print(f"O valor da compra é de: R${valor_compra:.2f}")

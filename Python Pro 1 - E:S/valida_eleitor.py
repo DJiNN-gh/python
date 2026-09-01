@@ -5,7 +5,7 @@ Dica Pythonica: Python permite comparações encadeadas (Lutz, Capítulo 5). Em 
 
 idade = int(input("Insira sua idade: \n"))
 
-if idade >= 18 and idade <= 70:
+if 18 <= idade <= 70:
     print("Voto obrigatório")
 else:
     print("Voto não-obrigatório")

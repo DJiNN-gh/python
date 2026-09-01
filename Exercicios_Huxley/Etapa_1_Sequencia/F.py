@@ -9,12 +9,9 @@ Formato de saída
 
 Um número inteiro representando a área do triângulo.
 
-NÃO USAR TEXTO NA FUNÇÃO INPUT"""
-
-def calculaTriangulo(valor1, valor2):
-    return ((valor1 * valor2) / 2)
+NÃO USAR TEXTO NA FUNÇÃO INPUT E PRINT"""
 
 base = int(input())
 altura = int(input())
 
-print(f"A área do triângulo é {calculaTriangulo(base, altura):.0f}")
+print(f"{(base * altura) / 2:.0f}")

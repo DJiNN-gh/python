@@ -9,13 +9,13 @@ Formato de saída
 
 Um número real com duas casas decimais, representando o salário atual com o aumento.
 
-NÃO USAR TEXTO NA FUNÇÃO INPUT"""
+NÃO USAR TEXTO NA FUNÇÃO INPUT E PRINT"""
 
-def calculaAumento (valor):
+"""def calculaAumento (valor):
     novoValor = (valor + (valor * 0.25))
-    return novoValor
+    return novoValor"""
 
 salario = float(input())
 
-#print("O seu salário com aumento é de R$ ", round(calculaAumento(salario), 2))
-print(f"O seu salário com o aumento é de R$ {calculaAumento(salario):.2f}")
+print(f"{salario*1.25:.2f}")
+#print(f"O seu salário com o aumento é de R$ {float(input("Seu salário]"))*1.25:.2f}")

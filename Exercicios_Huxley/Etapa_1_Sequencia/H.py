@@ -9,12 +9,9 @@ Formato de saída
 
 Um valor real com duas casas decimais representando a quantidade de litros gastos para realizar o percurso.
 
-NÃO USAR TEXTO NA FUNÇÃO INPUT"""
-
-def calculoEficiencia(valor1, valor2):
-    return (valor1 / valor2)
+NÃO USAR TEXTO NA FUNÇÃO INPUT E PRINT"""
 
 distancia = int(input())
-consumo = float(input())
+eficiencia = float(input())
 
-print(f"A eficiência do veículo é de {calculoEficiencia(distancia, consumo):.2f}KM/L")
+print(f"{distancia * eficiencia:.2f}")

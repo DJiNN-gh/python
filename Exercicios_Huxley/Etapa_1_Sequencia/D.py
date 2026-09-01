@@ -9,7 +9,7 @@ Formato de saída
 
 A saída deverá conter um valor real com duas casas decimais representando o novo salário; um valor real com duas casas decimais representando a gratificação e; um valor real com duas casas decimais representando o imposto. Apenas um valor por linha.
 
-NÃO USAR TEXTO NA FUNÇÃO INPUT"""
+NÃO USAR TEXTO NA FUNÇÃO INPUT E PRINT"""
 
 """def calculaSalario (valor):
     gratificacao = (valor + (valor * 0.05))
@@ -22,9 +22,6 @@ gratificacao = (salario * 0.05)
 imposto = (salario * 0.07)
 novo_salario = ((salario + gratificacao) - imposto)
 
-print(f"O valor do novo salário é de R$ {novo_salario:.2f}\n")
-#print("O valor do novo salário é: \n", round(novo_salario, 2))
-print(f"O acréscimo de gratificação foi de R$ {gratificacao:.2f}\n")
-#print("O acréscimo de gratificação foi de: \n", round(gratificacao, 2))
-print(f"A dedução de impostos foi de R$ {imposto:.2f}\n")
-#print("A dedução de impostos foi de: \n", round(imposto, 2))
+print(f"novo: {novo_salario:.2f}")
+print(f"gratificacao: {gratificacao:.2f}")
+print(f"imposto: {imposto:.2f}")

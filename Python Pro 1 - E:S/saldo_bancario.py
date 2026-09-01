@@ -10,4 +10,4 @@ saldo = float(input("Informe o saldo inicial: \n"))
 if saldo >= 0:
     print("O seu saldo é positivo")
 else:
-    print("O seu saldo está zerado")
+    print("O seu saldo é negativo")

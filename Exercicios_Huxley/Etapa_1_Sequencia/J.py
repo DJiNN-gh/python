@@ -9,13 +9,9 @@ Formato de saída
 
 Deverá ser um valor real com duas casas decimais simbolizando a média ponderada.
 
-NÃO USAR TEXTO NA FUNÇÃO INPUT"""
-
-def calculaMedia (valor1, valor2):
-    return ((((valor1 * 2) + (valor2 * 3)) / (2 + 3)))
+NÃO USAR TEXTO NA FUNÇÃO INPUT E PRINT"""
 
 nota1 = float(input())
 nota2 = float(input())
 
-print(f"Sua média é {calculaMedia(nota1, nota2):.2f}")
-#print("Sua média é: ", round(calculaMedia(nota1, nota2), 2))
+print(f"{((((nota1 * 2) + (nota2 * 3)) / (2 + 3))):.2f}")

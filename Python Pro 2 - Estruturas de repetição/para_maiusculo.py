@@ -1,0 +1,4 @@
+"""Enunciado: Crie um programa que peça palavras ao usuário continuamente. Para cada entrada, o programa deve converter a palavra para letras maiúsculas e exibi-la. O ciclo só deve ser encerrado se o usuário digitar exatamente a palavra "sair".
+Entrada: Strings variadas.
+Saída: A versão em caixa alta de cada entrada ou uma mensagem de despedida ao encerrar.
+Dica Pythonica: Para simular consoles que aguardam comandos sem um fim pré-definido, o padrão while True: é o mais eficiente. Utilize uma verificação interna com if para disparar o comando break, interrompendo o ciclo assim que a condição de saída for satisfeita."""
