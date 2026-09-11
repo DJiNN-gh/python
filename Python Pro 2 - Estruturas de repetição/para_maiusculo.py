@@ -2,3 +2,11 @@
 Entrada: Strings variadas.
 Saída: A versão em caixa alta de cada entrada ou uma mensagem de despedida ao encerrar.
 Dica Pythonica: Para simular consoles que aguardam comandos sem um fim pré-definido, o padrão while True: é o mais eficiente. Utilize uma verificação interna com if para disparar o comando break, interrompendo o ciclo assim que a condição de saída for satisfeita."""
+
+while True:
+    palavra = input("Digite uma palavra: \n")
+
+    if palavra == "sair":
+        break
+    else:
+        print(palavra.upper(), "\n")

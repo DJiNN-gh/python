@@ -3,7 +3,9 @@ Entrada: Uma string (ex: "Python").
 Saída: Um número inteiro representando a soma total.
 Dica Pythonica: Lembre-se que strings são sequências (assim como listas e tuplas). Em vez de usar um contador para acessar cada posição, use o padrão idiomático for char in string:. Para obter o valor ASCII de um caractere, utilize a função embutida ord()."""
 
-string = "Python"
+palavra = input("Informe um texto: ")
 
-for char in string:
-    
+for cont in palavra:
+    acc += ord(cont)
+
+print(acc)
