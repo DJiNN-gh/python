@@ -7,17 +7,16 @@ Entrada: Um número inteiro.
 Saída: O padrão numérico triangular.
 Dica Pythonica: Aqui, a lógica é dependente: o limite do range() do loop interno (colunas) deve ser definido dinamicamente pelo valor atual do loop externo (linhas). Observe como a hierarquia de execução garante que o interno complete todo o seu ciclo antes que o externo avance para a próxima linha."""
 
-# Primeiro laço imprime as linhas (externo), segundo laço imprime as colunas (interno)
-# O primeiro laço itera apenas quando todo o laço interno conclui
-# Estrutura do for: for (chamada) - x (inicializador) - in (complemento da chamada) - y (condição de permanência)
+# O primeiro laço imprime as colunas (externo), isto é, quantas linhas são saltadas, enquanto o segundo laço imprime as linhas (interno), isto é, cada coluna presente em uma linha
+# O primeiro externo itera apenas quando todo o laço interno conclui um ciclo
+# O laço interno é limitado de acordo com o crescimento do laço externo
 
-#def imprime_triangulo(valor):
+n = int(input())
 
-#valor = int(input("Altura do triângulo: "))
+for i in range(n):
 
-cont_a = 1 # primeiro iterador, inicial
-cont_b = 3 # segundo iterado, inverso
+    for j in range(i + 1):
 
-for cont_1 in cont_b:
-    print(cont_a)
-    cont_a += 1
+        print(j + 1, end=" ")
+
+    print()

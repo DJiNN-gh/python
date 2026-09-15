@@ -5,7 +5,9 @@ Dica Pythonica: Lembre-se que strings são sequências (assim como listas e tupl
 
 palavra = input("Informe um texto: ")
 
-for cont in palavra:
-    acc += ord(cont)
+acc = 0
+
+for i in palavra:
+    acc += ord(i)
 
 print(acc)
