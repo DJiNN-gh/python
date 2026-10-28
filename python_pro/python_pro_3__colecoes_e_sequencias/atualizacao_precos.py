@@ -17,9 +17,7 @@ while True:
 
     preco = float(input())
 
-    dicio.update({
-        nome: preco
-        })
+    dicio.update({nome: preco})
 
 for i, j in dicio:
 

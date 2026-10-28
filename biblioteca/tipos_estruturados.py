@@ -82,7 +82,7 @@ Para verificar se um dado elemento está contido em um conjunto de dados, usa-se
 
 Para ordenar os elementos de um conjunto de dados, usa-se a função sort(), passando como referência o conjunto de dados a ser ordenado.
 
-Para inverter os elementos de um conjunto de dados, usa-se a função reverse(), passando como referência o conjunto de dados a ser invertido.
+Para inverter a ordem dos elementos de um conjunto de dados, usa-se a função reverse(), sem parâmetros.
 
 Para remover um elemento de um conjunto de dados, usa-se a função pop(), passando como referência o conjunto de dados a ser atualizado.
 
